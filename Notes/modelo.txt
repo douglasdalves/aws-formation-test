@@ -1,0 +1,33 @@
+---
+AWSTemplateFormatVersion: "version date"
+
+Description:
+  String
+
+Metadata:
+  template metadata
+
+Parameters:
+  set of parameters
+
+  - Um parâmetro contém uma lista de atributos que definir o valor e as 
+  restrições em relação ao seu valor. O único atributo obrigatório é Type, 
+  que pode ser string, número ou um tipo específico da AWS
+
+Rules:
+  set of rules
+
+Mappings:
+  set of mappings
+
+Conditions:
+  set of conditions
+
+Transform:
+  set of transforms
+
+Resources:
+  set of resources
+
+Outputs:
+  set of outputs

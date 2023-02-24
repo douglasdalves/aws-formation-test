@@ -1,0 +1,31 @@
+
+
+----------------->> Funções
+
+- pseudoparâmetro AWS::Region 
+    valor que o CloudFormation resolve como a região em que a pilha é criada.
+
+- função !Ref
+    útil se o parâmetro ou o valor retornado para um recurso é exatamente o que você deseja
+    fazer referência a uma propriedade de identificação de um recurso
+
+- mapa Fn::FindInMap
+    transmitindo o nome do mapa, o valor usado para localizar o valor mapeado 
+    e o rótulo do valor mapeado que você deseja retornar.
+
+- função Fn::GetAtt
+    utiliza dois parâmetros, o nome lógico do recurso e o nome do atributo para ser recuperado
+
+https://docs.aws.amazon.com/pt_br/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html
+
+
+----------------->> Atributos opcionais que podem ser usados com qualquer recurso:
+
+- Atributo DependsOn 
+    permite especificar que um recurso deve ser criado após outro.
+
+- Atributo DeletionPolicy 
+    permite especificar como o CloudFormation deve lidar com a exclusão de um recurso.
+
+- Atributo Metadata 
+    permite que você especifique dados estruturados com um recurso.
